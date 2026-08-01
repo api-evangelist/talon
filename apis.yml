@@ -1,8 +1,29 @@
 aid: talon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talon.png
 name: Talon
-description: Talon is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Talon (Talon Cyber Security) was an enterprise browser security company that
+  built a secure, isolated Chromium-based browser for protecting SaaS and web
+  application access on managed and unmanaged devices, with controls for data
+  loss prevention, zero-trust access, and endpoint posture. Surfaced as a
+  portfolio lead of Lightspeed Venture Partners, the company was acquired by
+  Palo Alto Networks in December 2023 and its product was folded into the Palo
+  Alto Networks Prisma Access Browser (Prisma SASE). Talon no longer operates as
+  an independent company: its former domain (talon-sec.com) redirects to the
+  Palo Alto Networks Prisma Browser product page, and no independent public
+  developer portal, API documentation, or public API surface was found during
+  enrichment. This profile is retained as a company record for network history.
 url: https://raw.githubusercontent.com/api-evangelist/talon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +31,30 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: palo-alto-networks
+x-acquired-date: '2023-12'
+x-successor-product: Palo Alto Networks Prisma Access Browser
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Enterprise Browser
+- Zero Trust
+- SASE
+- Browser Security
+- Cybersecurity
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
