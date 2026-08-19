@@ -35,7 +35,7 @@ x-status: acquired
 x-acquired-by: palo-alto-networks
 x-acquired-date: '2023-12'
 x-successor-product: Palo Alto Networks Prisma Access Browser
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
